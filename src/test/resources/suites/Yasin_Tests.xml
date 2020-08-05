@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Testing" parallel="methods" verbose="1" configfailurepolicy="continue" thread-count="5">
+    <listeners>
+        <listener class-name="Utilities.DriverListener"/>
+    </listeners>
+    <test name="Windows Chrome Browser">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="ANY"/>
+        <parameter name="platform" value="windows"/>
+        <parameter name="testapp" value="web"/>
+        <classes>
+            <class name="testRunners.Yasin_RunCukes"/>
+        </classes>
+    </test>
+</suite>
+
+

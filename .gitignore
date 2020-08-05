@@ -1,0 +1,8 @@
+.idea/
+ BuffaloAcademyofScienceCucumberBDD.iml
+ allure-report/
+ allure-results/
+ rerun/
+ target/
+
+
